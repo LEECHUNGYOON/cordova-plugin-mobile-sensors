@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-mobile-sensors",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeutrinosPlatform/cordova-plugin-mobile-sensors"
+  },
+  "cordova": {
+    "id": "cordova-plugin-mobile-sensors",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "sensor",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "list"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "cordova-android": ">=3.4.0",
+      "cordova-ios": ">=4.5.4"}
+  },
+  "author": "jatahworx",
+  "license": "ISC",
+  "description": "cordova plugin for mobile sensor"
+}
