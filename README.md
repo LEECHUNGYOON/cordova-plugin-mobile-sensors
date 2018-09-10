@@ -9,9 +9,9 @@ Get all mobile sensor info in one plugin [Beta Version]
 # Installation Steps
 
 This requires cordova ios 4.3.0+ which supports the use of cocoapods.<br/>
-npm link :- https://www.npmjs.com/package/cordova-plugin-mobile-sensors
+`cordova plugin add https://github.com/NeutrinosPlatform/cordova-plugin-mobile-sensors`
 
-`cordova plugin add cordova-plugin-mobile-sensors`
+> The plugin is still in its beta phase and hence has not been published on npm. Once the stable release is out, it will be published.
 
 For **Android** that is all.
 
