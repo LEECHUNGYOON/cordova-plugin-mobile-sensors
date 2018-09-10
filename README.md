@@ -67,7 +67,7 @@ function error(error)
   console.log(error);
 }
 ```
-- Get raw values of sensors as an array. Refer to android and ios sensor documentation to understand the unit of the returned values.
+- Get raw values of the enabled sensor as an array. Refer to android and ios sensor documentation to understand the unit of the returned values.
 ```
 mobsense.getState(success,error);
 
