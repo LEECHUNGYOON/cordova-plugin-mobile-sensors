@@ -50,7 +50,16 @@
     <header-file src="src/ios/Mobsense.h" target-dir="SensePlugin"/>
     <source-file src="src/ios/Mobsense.m" target-dir="SensePlugin"/>
     
-    <framework src="SensingKit" type="podspec" spec="~> 0.5.0"/>
+    <podspec>
+        <config>
+            <source url="https://cdn.cocoapods.org/"/>
+        </config>
+        <pods use-frameworks="true">
+            <pod name="SensingKit" />
+        </pods>
+    </podspec>
+    
+    <!-- <framework src="SensingKit" type="podspec" spec="~> 0.5.0"/> -->
     <!--<framework src="MPIMotionKit" type="podspec" spec="~> 0.1.0.1"/>-->
     <!--<framework src="GTMSessionFetcher" type="podspec" spec="~> 1.1.15"/>-->
     <!--<framework src="Protobuf" type="podspec" spec="~> 3.6.0"/>-->
